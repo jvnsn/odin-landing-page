@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     flex-direction: column;
     margin: 0;
 }
@@ -46,11 +46,152 @@ p {
 }
 
 .hero {
+    display: flex;
+    margin-bottom: 32px;
+    gap: 16px;
+}
+
+
+.main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bold;
 }
 
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0 10px;
+}
+
+button {
+    border-radius: 8px;
+    background: #3882F6;
+    border: 0;
+    padding: 8px 24px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.image {
+    background-color: #E5E7EB;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
+    display: flex;
     flex: 1;
+    flex-direction: column;
+}
+
+.information {
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 0 200px;
+    margin: 16px 0 64px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    flex-basis: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    color: gray;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 200px;
+    height: 350px;
+    
+}
+
+.citation {
+    color: black;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.creator {
+    color: black;
+    font-size: x-large;
+    margin-top: 0;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.action {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    flex-basis: 900px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.text-2 {
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.action-btn {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
 }
